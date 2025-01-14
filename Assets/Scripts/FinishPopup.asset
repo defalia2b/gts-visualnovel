@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: FinishPopup
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"FinishPopUp","summary":null,"pan":{"x":29.61877,"y":-0.7070413},"zoom":0.7,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-98.0,"y":-112.0},"guid":"d14f0d2b-3e76-4f58-94d2-d04bf6235f54","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"9"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Button","$type":"System.String"},"object":null},"position":{"x":-304.0,"y":-107.0},"guid":"e20ace6d-1f08-4ff2-81fd-7fc50cbb64b5","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"11"},{"chainable":false,"parameterNames":["sceneName"],"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"UI","$type":"System.String"}},"position":{"x":263.0,"y":-99.0},"guid":"aea86f20-a397-42fb-bf4e-65ce0789a89c","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"chainable":false,"parameterNames":["value"],"member":{"name":"SetActive","parameterTypes":["System.Boolean"],"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":false,"$type":"System.Boolean"}},"position":{"x":97.0,"y":-111.0},"guid":"83d027c9-a645-4976-91f8-125e76ac9c00","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Finished
+      Popup","$type":"System.String"},"object":null},"position":{"x":-120.0,"y":37.0},"guid":"e265787e-4198-4ca6-977b-fe91a7783213","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"21"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"5eebd243-e1e0-4862-8fd3-054e7d841125","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"exit","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"34b5d82b-4a48-472f-9daf-74afa2d7ca97","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"target","guid":"88147781-a952-4169-beee-983a050d32c1","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"e2d45592-0e11-4e13-8085-fb438a81ce34","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-335.8572,"yMin":-179.7143,"xMax":445.5714,"yMax":188.1428},"label":"button
+      balik ke UI abis game kelar","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"a7f1f021-dfb3-4e62-b497-736f4946969b","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

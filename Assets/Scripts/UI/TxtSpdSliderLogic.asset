@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: TxtSpdSliderLogic
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Text
+      speed slider logic","summary":null,"pan":{"x":-79.42918,"y":-15.2626},"zoom":0.4999999,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-260.0,"y":-130.0},"guid":"683b9858-db45-4e0a-a081-c3abb856e9bf","$version":"A","$type":"Unity.VisualScripting.OnSliderValueChanged","$id":"9"},{"kind":"Saved","defaultValues":{"name":{"$content":"textSpd","$type":"System.String"}},"position":{"x":116.0,"y":-112.0},"guid":"03dab340-0bb2-423a-95cc-a96895880cea","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"11"},{"member":{"name":"value","parameterTypes":null,"targetType":"UnityEngine.UI.Slider","targetTypeName":"UnityEngine.UI.Slider","$version":"A"},"defaultValues":{"target":null},"position":{"x":-145.0,"y":56.0},"guid":"a9d357d1-a9b4-43ce-839e-a7b70956d987","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"13"},{"coroutine":false,"defaultValues":{},"position":{"x":-126.0,"y":-511.0},"guid":"aba8195e-412f-4e47-901c-180f2a99a5f4","$version":"A","$type":"Unity.VisualScripting.OnEnable","$id":"16"},{"chainable":false,"member":{"name":"value","parameterTypes":null,"targetType":"UnityEngine.UI.Slider","targetTypeName":"UnityEngine.UI.Slider","$version":"A"},"defaultValues":{"target":null,"input":{"$content":0.0,"$type":"System.Single"}},"position":{"x":117.0,"y":-450.0},"guid":"264bf7e7-cee4-42ee-aa9f-4a566fb121c4","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"18"},{"specifyFallback":false,"kind":"Saved","defaultValues":{"name":{"$content":"textSpd","$type":"System.String"}},"position":{"x":-96.0,"y":-343.0},"guid":"1c2174cd-15aa-4871-bc10-07a779452267","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"21"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"7909a900-7ba1-4237-b853-f00b73237f3c","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"trigger","destinationUnit":{"$ref":"18"},"destinationKey":"assign","guid":"cbbd8587-7c0f-4245-8c39-f06cc83dc804","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"f59498b2-94d9-4331-962e-7e39250ebdde","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"input","guid":"a3b1222a-fd46-4238-8e7f-8fc34c98d400","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-177.9998,"yMin":-561.9999,"xMax":278.0004,"yMax":-214.9999},"label":"reset
+      slider setiap onEnable","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"7a8f14bf-e723-4b2f-821b-fac3a3929c1e","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":-315.9998,"yMin":-189.9999,"xMax":304.0004,"yMax":173.0002},"label":"set
+      text speed sesuai slider","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"57f185f8-f400-4cb1-9e3e-79c0a14c4c80","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

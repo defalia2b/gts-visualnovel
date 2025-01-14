@@ -8,6 +8,7 @@ public class DialogEntry
     public string dialogText;             // Teks dialog
     public int[] speakingCharacterIndices; // Indeks karakter yang berbicara
     public Vector3[] positions;           // Posisi masing-masing karakter
+    public string[] animationTriggers;    // Trigger animasi karakter
 }
 
 [CreateAssetMenu(fileName = "NewDialog", menuName = "Dialog System/Dialog Data")]

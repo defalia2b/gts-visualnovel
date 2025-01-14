@@ -1,0 +1,4 @@
+Sprite_FadeIn : fadein
+Sprite_BounceIn : bouncein
+Sprite_Shake : shake
+Sprite_Flip : flip

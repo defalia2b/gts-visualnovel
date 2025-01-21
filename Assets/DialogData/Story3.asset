@@ -16,14 +16,20 @@ MonoBehaviour:
   - characterName: Suzuran
     characterSprites:
     - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
-    dialogText: Dokutah, i wonder if you're a child predator?
+    dialogText: contoh dialog 1
     speakingCharacterIndices: 00000000
     positions:
     - {x: 0, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
   - characterName: Suzuran
     characterSprites:
     - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
-    dialogText: No? Okay then.
+    dialogText: contoh dialog 2
     speakingCharacterIndices: 00000000
     positions:
     - {x: 0, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 

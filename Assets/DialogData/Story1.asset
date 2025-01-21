@@ -17,7 +17,7 @@ MonoBehaviour:
     characterSprites:
     - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
-    dialogText: Ohayou dokutah!
+    dialogText: dialog pertama
     speakingCharacterIndices: 0000000001000000
     positions:
     - {x: -500, y: 0, z: 0}
@@ -29,7 +29,7 @@ MonoBehaviour:
     characterSprites:
     - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
-    dialogText: Dokutah look at me!
+    dialogText: dialog kedua
     speakingCharacterIndices: 00000000
     positions:
     - {x: -500, y: 0, z: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
     characterSprites:
     - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
-    dialogText: Look at me too!
+    dialogText: dialog ketiga
     speakingCharacterIndices: 01000000
     positions:
     - {x: -500, y: 0, z: 0}
@@ -53,7 +53,7 @@ MonoBehaviour:
     characterSprites:
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
     - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
-    dialogText: We switched position!
+    dialogText: dialog keempat
     speakingCharacterIndices: 01000000
     positions:
     - {x: -500, y: 0, z: 0}
@@ -65,7 +65,7 @@ MonoBehaviour:
     characterSprites:
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
     - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
-    dialogText: Go to the center
+    dialogText: dialog kelima
     speakingCharacterIndices: 01000000
     positions:
     - {x: -500, y: 0, z: 0}
@@ -77,7 +77,7 @@ MonoBehaviour:
     characterSprites:
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
     - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
-    dialogText: I'm shaking
+    dialogText: dialog keenam
     speakingCharacterIndices: 01000000
     positions:
     - {x: -500, y: 0, z: 0}

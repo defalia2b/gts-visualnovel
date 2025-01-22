@@ -23,5 +23,5 @@ MonoBehaviour:
     - {x: 0, y: 0, z: 0}
     - {x: 500, y: 0, z: 0}
     animationTriggers:
-    - 
-    - 
+    - Sprite_FadeIn
+    - Sprite_FadeIn

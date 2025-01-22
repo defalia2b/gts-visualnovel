@@ -21,7 +21,7 @@ MonoBehaviour:
     positions:
     - {x: 0, y: 0, z: 0}
     animationTriggers:
-    - 
+    - Sprite_FadeIn
   - characterName: Suzuran
     characterSprites:
     - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}

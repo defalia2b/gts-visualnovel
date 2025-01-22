@@ -35,7 +35,7 @@ MonoBehaviour:
     - {x: -500, y: 0, z: 0}
     - {x: 500, y: 0, z: 0}
     animationTriggers:
-    - Sprite_BounceIn
+    - 
     - 
   - characterName: Vigil
     characterSprites:
@@ -48,7 +48,7 @@ MonoBehaviour:
     - {x: 500, y: 0, z: 0}
     animationTriggers:
     - 
-    - Sprite_BounceIn
+    - 
   - characterName: Suzuran
     characterSprites:
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
@@ -72,7 +72,7 @@ MonoBehaviour:
     - {x: 0, y: 0, z: 0}
     animationTriggers:
     - 
-    - Sprite_FlipReverse
+    - Sprite_BounceIn
   - characterName: Suzuran
     characterSprites:
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}

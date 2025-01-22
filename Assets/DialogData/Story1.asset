@@ -20,11 +20,11 @@ MonoBehaviour:
     dialogText: Ohayou dokutah!
     speakingCharacterIndices: 0000000001000000
     positions:
-    - {x: -450, y: 0, z: 0}
-    - {x: 450, y: 0, z: 0}
+    - {x: -500, y: 0, z: 0}
+    - {x: 500, y: 0, z: 0}
     animationTriggers:
-    - 
-    - 
+    - Sprite_FadeIn
+    - Sprite_FadeIn
   - characterName: Suzuran
     characterSprites:
     - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
@@ -60,7 +60,7 @@ MonoBehaviour:
     - {x: 500, y: 0, z: 0}
     animationTriggers:
     - 
-    - 
+    - Sprite_Flip
   - characterName: Suzuran
     characterSprites:
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
@@ -72,7 +72,7 @@ MonoBehaviour:
     - {x: 0, y: 0, z: 0}
     animationTriggers:
     - 
-    - 
+    - Sprite_BounceIn
   - characterName: Suzuran
     characterSprites:
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
@@ -84,4 +84,4 @@ MonoBehaviour:
     - {x: 0, y: 0, z: 0}
     animationTriggers:
     - 
-    - 
+    - Sprite_Shake

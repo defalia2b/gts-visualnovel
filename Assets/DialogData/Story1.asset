@@ -13,75 +13,895 @@ MonoBehaviour:
   m_Name: Story1
   m_EditorClassIdentifier: 
   entries:
-  - characterName: Suzuran & Vigil
+  - characterName: Chaerul Saleh
     characterSprites:
-    - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
-    dialogText: dialog pertama
-    speakingCharacterIndices: 0000000001000000
-    positions:
-    - {x: -500, y: 0, z: 0}
-    - {x: 500, y: 0, z: 0}
-    animationTriggers:
-    - Sprite_FadeIn
-    - Sprite_FadeIn
-  - characterName: Suzuran
-    characterSprites:
-    - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
-    dialogText: dialog kedua
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Saudara-saudara, ini saatnya kita bertindak. Jepang sudah kalah.
+      Kita tidak boleh menunggu lebih lama lagi!
     speakingCharacterIndices: 00000000
     positions:
     - {x: -500, y: 0, z: 0}
-    - {x: 500, y: 0, z: 0}
-    animationTriggers:
-    - Sprite_BounceIn
-    - 
-  - characterName: Vigil
-    characterSprites:
-    - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
-    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
-    dialogText: dialog ketiga
-    speakingCharacterIndices: 01000000
-    positions:
-    - {x: -500, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
     - {x: 500, y: 0, z: 0}
     animationTriggers:
     - 
-    - Sprite_BounceIn
-  - characterName: Suzuran
-    characterSprites:
-    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
-    - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
-    dialogText: dialog keempat
-    speakingCharacterIndices: 01000000
-    positions:
-    - {x: -500, y: 0, z: 0}
-    - {x: 500, y: 0, z: 0}
-    animationTriggers:
     - 
-    - Sprite_Flip
-  - characterName: Suzuran
+    - 
+  - characterName: Sukarni
     characterSprites:
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
-    - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
-    dialogText: dialog kelima
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Jika kita menunggu, bisa-bisa justru Sekutu yang menguasai Indonesia.
+      Proklamasi harus kita lakukan sekarang!
     speakingCharacterIndices: 01000000
     positions:
     - {x: -500, y: 0, z: 0}
     - {x: 0, y: 0, z: 0}
+    - {x: 500, y: 0, z: 0}
     animationTriggers:
     - 
-    - Sprite_FlipReverse
-  - characterName: Suzuran
+    - 
+    - 
+  - characterName: Wikana
     characterSprites:
     - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
-    - {fileID: 21300000, guid: 9587e4c90a6196b4382883ccc5127982, type: 3}
-    dialogText: dialog keenam
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Kemerdekaan ini bukan untuk ditunggu. Sekutu akan datang dan merebut
+      peluang ini jika kita tidak ambil alih.
+    speakingCharacterIndices: 02000000
+    positions:
+    - {x: -500, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 500, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+  - characterName: Chaerul Saleh
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Kami tidak akan berkompromi. Kita harus bergerak cepat untuk memproklamasikan
+      kemerdekaan.
+    speakingCharacterIndices: 00000000
+    positions:
+    - {x: -500, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 500, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+  - characterName: Sukarni
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Golongan tua terlalu berhati-hati. Kalau mereka tak mau bertindak,
+      kita harus bergerak sendiri.
     speakingCharacterIndices: 01000000
     positions:
     - {x: -500, y: 0, z: 0}
     - {x: 0, y: 0, z: 0}
+    - {x: 500, y: 0, z: 0}
     animationTriggers:
     - 
-    - Sprite_Shake
+    - 
+    - 
+  - characterName: Chaerul Saleh
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Bung Karno, Bung Hatta, Jepang sudah kalah. Kita bisa ambil kesempatan
+      ini untuk mengumumkan proklamasi kemerdekaan. Rakyat sudah siap.
+    speakingCharacterIndices: 01000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Soekarno
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Saya mengerti kegelisahan kalian, tapi kemerdekaan bukan hanya soal
+      pengumuman. Ini tentang kesiapan bangsa.
+    speakingCharacterIndices: 00000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Hatta
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Proklamasi ini harus matang, karena setelah ini tanggung jawab besar
+      ada di pundak kita.
+    speakingCharacterIndices: 02000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Chaerul Saleh
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Tapi, Bung, jika menunggu lebih lama, kita akan kehilangan momentum.
+      Rakyat menunggu kita untuk bertindak.
+    speakingCharacterIndices: 01000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Wikana
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Jepang sudah lemah, kita harus memanfaatkan situasi ini. Jangan biarkan
+      Sekutu mendahului kita!
+    speakingCharacterIndices: 03000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Sukarni
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Bung Karno, Bung Hatta, kami merasa jika tetap di Jakarta, kita akan
+      terpengaruh tekanan dari Jepang. Sebaiknya kita ke Rengasdengklok untuk sementara
+      waktu.
+    speakingCharacterIndices: 00000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Soekarno
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Perlindungan kita penting, namun tidak bisa kita tinggalkan Jakarta
+      begitu saja.
+    speakingCharacterIndices: 01000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Wikana
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Kami sudah merencanakan semuanya, di sana kita akan lebih bebas bergerak
+      dan mempersiapkan langkah-langkah berikutnya.
+    speakingCharacterIndices: 03000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Hatta
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Baik, kami setuju. Kalau itu langkah yang terbaik, kami akan ikut
+      pergi ke Rengasdengklok.
+    speakingCharacterIndices: 02000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Sukarni
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Ini hanya demi memastikan proklamasi dapat dilakukan tanpa campur
+      tangan Jepang.
+    speakingCharacterIndices: 00000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Chaerul Saleh
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Kita harus menjaga keberanian dan kebulatan tekad di sini. Proklamasi
+      harus tetap jadi tujuan kita.
+    speakingCharacterIndices: 00000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Wikana
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Di Rengasdengklok, kita bisa mulai merancang detil bagaimana proklamasi
+      ini dilakukan.
+    speakingCharacterIndices: 01000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Sukarni
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Setelah perjalanan ini, kita akan bekerja tanpa gangguan untuk menyusun
+      semuanya.
+    speakingCharacterIndices: 00000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Soekarno
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Saya harap keputusan ini akan membawa kita pada kemerdekaan yang
+      sejati.
+    speakingCharacterIndices: 03000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Hatta
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Keputusan ini bukan hal ringan, tapi kami percaya ini langkah terbaik
+      untuk negara kita.
+    speakingCharacterIndices: 04000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Sukarni
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Kami tahu pentingnya waktu, Bung. Jika proklamasi terlewat, kekosongan
+      kekuasaan akan menguntungkan pihak lain.
+    speakingCharacterIndices: 01000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Soekarno
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Benar, Sukarni. Tetapi kemerdekaan ini adalah tanggung jawab yang
+      besar, kita harus pastikan semuanya siap. Rakyat harus merasa siap menghadapinya.
+    speakingCharacterIndices: 02000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Wikana
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Rakyat sudah menyambut kemerdekaan ini. Kita yang harus mengambil
+      langkah pertama.
+    speakingCharacterIndices: 00000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Chaerul Saleh
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Waktu sudah semakin sempit. Kita butuh langkah segera, Bung. Proklamasi
+      adalah hak rakyat, bukan Jepang atau Sekutu.
+    speakingCharacterIndices: 03000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Hatta
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Sekali proklamasi diumumkan, kita tidak bisa kembali lagi. Ini adalah
+      titik yang menentukan.
+    speakingCharacterIndices: 04000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Chaerul Saleh
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Tindakan kita kini harus terfokus pada penyusunan naskah proklamasi.
+      Kita harus menguatkan pesan yang akan disampaikan.
+    speakingCharacterIndices: 02000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Ahmad Subardjo
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Saya setuju, mari kita buat naskah yang langsung menegaskan bahwa
+      kemerdekaan Indonesia sudah nyata dan sah.
+    speakingCharacterIndices: 03000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Soekarno
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Tapi jangan lupa, kata-kata ini juga harus mengajak rakyat untuk
+      turut serta, bukan hanya menerima keputusan.
+    speakingCharacterIndices: 04000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Hatta
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Naskah ini bukan hanya berisi deklarasi, tetapi juga ajakan untuk
+      bersatu demi kemajuan bangsa.
+    speakingCharacterIndices: 01000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Sukarni
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Kita harus pastikan bahwa proklamasi ini menggugah semangat, memberikan
+      harapan baru bagi seluruh rakyat Indonesia.
+    speakingCharacterIndices: 00000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Ahmad Subardjo
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Ini saat yang sangat krusial. Setiap kata yang tertulis akan menggema
+      ke seluruh penjuru negeri.
+    speakingCharacterIndices: 00000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Soekarno
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: "Baik. Saya setuju. \u2018Kami bangsa Indonesia\u2019 akan menjadi
+      kalimat pembuka, menggarisbawahi semangat kesatuan."
+    speakingCharacterIndices: 01000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Hatta
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: "Frasa \u2018dalam tempo yang sesingkat-singkatnya\u2019 itu sangat
+      penting. Itu menunjukkan urgensi dan keseriusan kita."
+    speakingCharacterIndices: 02000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Chaerul Saleh
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Tidak hanya itu. Kita harus pastikan isi naskah menggambarkan kedaulatan
+      penuh rakyat Indonesia.
+    speakingCharacterIndices: 03000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Soekarno
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Ini lebih dari sekedar naskah. Ini adalah janji kepada seluruh rakyat
+      Indonesia bahwa kita berdiri bersama di bawah bendera Merah Putih.
+    speakingCharacterIndices: 01000000
+    positions:
+    - {x: -700, y: 0, z: 0}
+    - {x: -250, y: 0, z: 0}
+    - {x: 250, y: 0, z: 0}
+    - {x: 700, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+  - characterName: Sukarni
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Semua sudah siap. Proklamasi akan dimulai, tidak ada lagi penundaan!
+    speakingCharacterIndices: 04000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Wikana
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Semua sudah siap. Proklamasi akan dimulai, tidak ada lagi penundaan!
+    speakingCharacterIndices: 00000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Chaerul Saleh
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Ini adalah momen yang telah diperjuangkan begitu lama. Mari kita
+      wujudkan!
+    speakingCharacterIndices: 03000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Soekarno
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Saudara-saudara sekalian, dengan ini kami bangsa Indonesia menyatakan
+      kemerdekaan Indonesia.
+    speakingCharacterIndices: 02000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Hatta
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Mari kita jaga amanah ini. Keberhasilan ini adalah awal dari perjalanan
+      panjang kita bersama.
+    speakingCharacterIndices: 01000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Sukarni
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Tidak hanya berapa lama, tetapi bagaimana proklamasi ini disambut.
+      Kami akan menyebarkannya ke seluruh negeri.
+    speakingCharacterIndices: 01000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Chaerul Saleh
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Kini tugas kita adalah menjaga agar ini tidak dicabut. Negara-negara
+      asing tentu sudah siap untuk datang.
+    speakingCharacterIndices: 02000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Soekarno
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Tugas kita belum selesai. Proklamasi hanya simbol pertama, sekarang
+      saatnya membangun bangsa.
+    speakingCharacterIndices: 03000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
+  - characterName: Hatta
+    characterSprites:
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    - {fileID: -1814253129062964316, guid: 8bd0d809fb232ca459dc6f36f9599d58, type: 3}
+    dialogText: Rakyat perlu merasa bahwa kebebasan ini adalah hak mereka dan mereka
+      harus turut menjaga dan memperjuangkannya.
+    speakingCharacterIndices: 04000000
+    positions:
+    - {x: -800, y: 0, z: 0}
+    - {x: -400, y: 0, z: 0}
+    - {x: 0, y: 0, z: 0}
+    - {x: 400, y: 0, z: 0}
+    - {x: 800, y: 0, z: 0}
+    animationTriggers:
+    - 
+    - 
+    - 
+    - 
+    - 
